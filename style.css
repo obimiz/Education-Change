@@ -1,0 +1,323 @@
+
+body{
+    width: auto;
+    background-color: white;
+}
+
+.container1 .navbar{
+display: flex;
+text-decoration: none;
+padding: 10px;
+margin-left: 100px;
+}
+
+.container1 .navbar ul li{
+    list-style: none;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.container1 .navbar ul{
+    display: flex;
+    margin-left: 300px;
+    gap: 50px;
+}
+
+.container1 .body{
+    width: 1580px;
+    height: 450px;
+    position: absolute;
+    margin-left: 40px;
+}
+
+/* .container1 .body .topleft{
+border-top: 455px solid rgba(233, 231, 231, 0.815);
+border-right: 1580px solid transparent;
+
+
+} */
+.container1 .body .topleft{
+    width: 95%;
+    height: 455px;
+    background-color: rgba(227, 233, 227, 0.911);
+    clip-path: polygon(0 0, 0 100%,0% 100%,100% 0);
+    border-radius: 20px;
+}
+/* .container1 .body .buttonright{
+    border-bottom: 455px solid rgba(30, 53, 30, 0.945);
+    border-left: 1580px solid transparent;
+    margin-top: -455px;
+    
+    
+} */
+.container1 .body .buttonright{
+    width: 95%;
+    height: 455px;
+    background-color: rgba(30, 53, 30, 0.945);
+    clip-path: polygon(100% 0, 0 100%,100% 100%,100% 0%);
+    border-radius: 20px;
+    margin-top: -455px;
+}   
+
+.wordsbutton .edu{
+color: green;
+}
+.container1 .body .buttonhouse{
+    width: 700px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+.container1 .body .buttonhouse img{
+    margin-left: 20px;
+
+    
+}
+.container1 .body .buttonhouse button{
+    width: 170px;
+    height: 43px;
+    background-color: green;
+    border: none;
+    border-radius: 7px;
+    margin-left: 88px;
+}
+
+.container1 .body .buttonhouse .demacation{
+    font-size: 30px;
+}
+
+.container1content{
+    display: flex;
+    position: relative;
+    top: -400px;
+    margin-left: 80px;
+}
+
+.img .sister{
+    margin-top: -75px;
+}
+
+.logos{
+    position: relative;
+    display: flex;
+    margin-top: 520px;
+    gap: 100px;
+    margin-left: 600px;
+}
+
+.container2{
+    margin-left: 40px;
+}
+    
+.container2 .containershape .topleft2{
+    width: 50%;
+    height: 290px;
+    background-color: rgba(227, 233, 227, 0.911);
+    clip-path: polygon(0 0, 0 100%,0% 100%,100% 0);
+    border-radius: 20px;
+}
+
+.container2 .containershape .buttonright2{
+    width: 50%;
+    height: 290px;
+    background-color: rgba(30, 53, 30, 0.945);
+    clip-path: polygon(100% 0, 0 100%,100% 100%,100% 0%);
+    margin-top: -290px;
+    border-radius: 20px;
+}
+
+.container2 .containershape{
+    margin-top: 80px;  
+     
+}
+
+.container2content{
+    position: absolute;
+    display: flex;
+    top: 800px;
+
+}
+.container2content .container2img{
+    margin-top: -115px;
+    margin-left: 100px;
+}
+
+.container2text{
+    margin-left: -50px;
+}
+.container2text .must{
+    color: green;
+}
+
+
+.container3 .container3button{
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.container3 .container3button .pop{
+    color: green;
+}
+
+.container3 .container3button button{
+   background-color: white;
+   border-color: gree;
+   width: 80px;
+   outline: none;
+}
+
+.container3 .container3button .spam{
+    background-color: green;
+    border: none;
+    height: 21px;
+    color: white;
+}
+
+.gridhouse .gridhouse1 .grid .gridratingicon .fas.fa-star{
+    margin-bottom: 30px;
+}
+.gridhouse .gridhouse2 .grid .gridratingicon .fas.fa-star{
+    margin-bottom: 30px;
+}
+
+.gridhouse .gridhouse1 .grid{
+    width: 435px;
+    height: 380px;
+    
+    margin-left: 40px;
+    margin-top: 80px;
+    
+    
+}
+
+.gridhouse .gridhouse1{
+    display: flex;
+    gap: 50px;
+}
+.gridhouse .gridhouse2 .grid{
+    width: 435px;
+    height: 380px;
+    margin-left: 40px;
+    margin-top: 80px;  
+}
+.gridhouse .gridhouse2{
+    display: flex;
+    gap: 50px;
+}
+
+.gridhouse .grid img{
+    border-radius: 10px;
+}
+
+.gridhouse h4{
+background-color: green;
+width: 190px;
+height: 30px;
+text-align: center;
+display: grid;
+align-items: center;
+border-radius: 5px;
+margin-top: -10px;
+color: white;
+}
+
+
+.container5{
+    margin-top: 0px;
+}
+.container5angleframe{
+    width: 50%;
+    height: 290px;
+    background-color: rgba(30, 53, 30, 0.945);
+    clip-path: polygon(100% 0, 0 100%,100% 100%,100% 0%);
+    margin-top: -290px;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 750px;
+}
+
+.container5cont{
+    display: flex;
+    margin-left: 40px;
+    top: 2329px;
+    position: absolute;
+}
+.contimg1{
+    margin-left: 500px;
+    margin-top: -80px;
+    border-radius: 10px;
+}
+.contimg2{
+    position: absolute;
+    margin-left: -750px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.container5cont .ou{
+    color: green;
+}
+
+.container5cont p{
+    font-size: 20px;
+}
+
+.container5cont button{
+    width: 130px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.container6{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.container6 img{
+    border-radius: 20px;
+}
+
+.container6content{
+    margin-left: 90px;
+}
+.container6 .whot{
+    color: green;
+}
+
+.container6 .excel{
+    font-size: 20px;
+    font-weight: bold;
+}
+    
+.container6 p{
+    font-size: 20px;
+}
+.container6 .smart{
+    display: flex;
+}
+
+.container6ratingicon{
+    margin-top: 25px;
+    margin-left: 150px;
+
+}
+
+.container6content{
+    box-shadow: 7px 7px 7px 0.10px rgba(0, 0, 0, 0.1);
+}
+
+.fas.fa-star{
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
